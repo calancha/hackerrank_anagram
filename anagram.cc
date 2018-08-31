@@ -54,14 +54,12 @@ int number_anagrams (string str, int n)
       multiplicity += comb(e.second);
     }
   }
-  cout << multiplicity << endl;
-
   return multiplicity;
 }
 
 // Complete the sherlockAndAnagrams function below.
-int sherlockAndAnagrams(string s) {
-  return number_anagrams(s, s.size());
+void sherlockAndAnagrams(string s) {
+  cout << number_anagrams(s, s.size()) << endl;;
 }
 
 int main()
