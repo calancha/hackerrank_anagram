@@ -59,7 +59,7 @@ int number_anagrams (string str, int n)
 
 // Complete the sherlockAndAnagrams function below.
 void sherlockAndAnagrams(string s) {
-  cout << number_anagrams(s, s.size()) << endl;;
+  cout << number_anagrams(s, s.size()) << endl;
 }
 
 int main()
